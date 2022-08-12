@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body{
+    z-index: -1;
+    background-image: url("https://images7.alphacoders.com/334/thumb-1920-334208.jpg");
+    background-size: cover;
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'IM Fell English SC', serif;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.game-container{
+    z-index: -1;
+    
+    color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+.game-header{
+  padding: 4rem;
+}
+.parent{
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.answer{
+    margin-left: 35%;
+    text-align: center;
+}
+
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+ul li label{
+  cursor: pointer;
+}
+button{
+  background-color: #6c16168f;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+button:hover{
+  background-color: #8ae93c88;
+}
+button:focus{
+  outline: none;
+  background-color: #8ae93c88;
+}
+li:hover{
+    width: 50%;
+    margin-left: 25%;;
+    cursor: pointer;
+    background: #8ae93c88;
+     
+}
+hr {
+    width: 30%;
+    margin-left: 35%;
+}
+h1{
+    text-align: center;
+   margin-top: 20%; 
+}
+#next{
+    margin-left:25% ;
+    width: 50%;
+}
